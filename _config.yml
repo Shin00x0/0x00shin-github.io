@@ -29,7 +29,8 @@ theme: minima # El tema clásico y limpio similar a 0xdf
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
+sass:
+  quiet_deps: true
 # Configuración de sintaxis para código (crucial para reversing/web)
 markdown: kramdown
 highlighter: rouge
